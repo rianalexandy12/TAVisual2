@@ -46,6 +46,7 @@ object FormMenuUtama: TFormMenuUtama
     Height = 25
     Caption = 'WALI KELAS'
     TabOrder = 3
+    OnClick = b4Click
   end
   object b5: TButton
     Left = 120
@@ -71,6 +72,7 @@ object FormMenuUtama: TFormMenuUtama
     Height = 25
     Caption = 'ORANG TUA'
     TabOrder = 6
+    OnClick = b7Click
   end
   object b8: TButton
     Left = 120
@@ -79,5 +81,6 @@ object FormMenuUtama: TFormMenuUtama
     Height = 25
     Caption = 'POIN'
     TabOrder = 7
+    OnClick = b8Click
   end
 end
