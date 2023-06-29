@@ -38,6 +38,7 @@ object FormMenuUtama: TFormMenuUtama
     Height = 25
     Caption = 'HUBUNGAN'
     TabOrder = 2
+    OnClick = b3Click
   end
   object b4: TButton
     Left = 24

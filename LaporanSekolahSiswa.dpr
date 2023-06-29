@@ -8,7 +8,9 @@ uses
   Siswa in 'Siswa.pas' {FormSiswa},
   OrangTua in 'OrangTua.pas' {FormOrangTua},
   Poin in 'Poin.pas' {FormPoin},
-  WaliKelas in 'WaliKelas.pas' {FormWakel};
+  WaliKelas in 'WaliKelas.pas' {FormWakel},
+  Hubungan in 'Hubungan.pas' {FormHubungan},
+  Semester in 'Semester.pas' {FormSemester};
 
 {$R *.res}
 
@@ -21,5 +23,7 @@ begin
   Application.CreateForm(TFormOrangTua, FormOrangTua);
   Application.CreateForm(TFormPoin, FormPoin);
   Application.CreateForm(TFormWakel, FormWakel);
+  Application.CreateForm(TFormHubungan, FormHubungan);
+  Application.CreateForm(TFormSemester, FormSemester);
   Application.Run;
 end.

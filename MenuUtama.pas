@@ -22,6 +22,7 @@ type
     procedure b7Click(Sender: TObject);
     procedure b8Click(Sender: TObject);
     procedure b4Click(Sender: TObject);
+    procedure b3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,7 +33,7 @@ var
   FormMenuUtama: TFormMenuUtama;
 
 implementation
-uses User, Kelas, Siswa, OrangTua, Poin, WaliKelas;
+uses User, Kelas, Siswa, OrangTua, Poin, WaliKelas, Hubungan;
 
 {$R *.dfm}
 
@@ -66,6 +67,11 @@ end;
 procedure TFormMenuUtama.b4Click(Sender: TObject);
 begin
 FormWakel.ShowModal;
+end;
+
+procedure TFormMenuUtama.b3Click(Sender: TObject);
+begin
+FormHubungan.ShowModal;
 end;
 
 end.
